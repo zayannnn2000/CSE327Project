@@ -107,7 +107,7 @@ body {
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
-    color: #4a006a;
+    color: #da6002;
     transition: 0.3s ease;
 }
 
@@ -145,16 +145,18 @@ body {
 
 #banner h4 {
     padding-bottom: 20px;
-    color: #fda172;
+    color: #d17b51;
 }
 
 #banner h2 {
     color: #da6002;
+    padding-bottom: 20px;
 }
 
 
-#banner p {
-    color: #fda172;
+#banner h3 {
+    color: #d17547;
+    padding-bottom: 20px;
 }
 
 #banner button {
@@ -162,11 +164,17 @@ body {
     background-color: transparent;
     color:#28033a;
     border: 0;
-    padding: 15px 300px 15px 35px;
+    padding: 12px 100px 25px 20px;
     background-repeat: no-repeat;
     cursor: pointer;
-    font-weight: 700;
-    font-size: 15px;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+#banner button:hover{
+    background-color: transparent;
+    color: #fff;
+    transition: 0.03s;
 }
 
 #feature{
@@ -298,6 +306,7 @@ body {
     position: absolute;
     bottom: 20px;
     right: 10px;
+
 }
 
 #banner2{
@@ -402,12 +411,25 @@ body {
     margin-bottom: 20px;
 }
 
+#banner5 .banner-box:hover{
+    box-shadow: 10px 10px 54px rgba(170, 93, 221, 0.2);
+}
+
 #banner5 .banner-box2{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.08);
     background-image: url("img/banner6.png");
+}
+
+#banner5 .banner-box2:hover{
+    box-shadow: 10px 10px 54px rgba(170, 93, 221, 0.2);
 }
 
 #banner5 .banner-box3{
     background-image: url("img/banner7.png");
+}
+
+#banner5 .banner-box3:hover{
+    box-shadow: 10px 10px 54px rgba(170, 93, 221, 0.2);
 }
 
 #banner5 h2{
@@ -421,4 +443,130 @@ body {
     font-weight: 800;
     font-size: 15px;
 }
+
+#newsletter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url("img/news.jpg");
+    background-repeat: repeat;
+    background-position: 20% 30%;
+}
+
+#newsletter h4 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #28033a;
+}
+
+#newsletter p {
+    font-size: 24px;
+    font-weight: 600;
+    color: #28033a;
+}
+
+#newsletter .form{
+     display: flex;
+     width: 40%;
+
+}
+
+#newsletter input{
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: 10%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter button{
+    background-color: #088178;
+    color: #fff;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#newsletter button{
+    background-color: #d34dd2;
+    color: #28033a;
+    white-space: nowrap;
+}
+
+#newsletter:hover button{
+    background-color: #088178;
+    color: #fff;
+    border: 1px solid #088178;
+    transition: 0.5s ease;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer .logo{
+     margin-bottom: 30px;
+}
+
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+footer a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #4a006a;
+    margin-bottom: 10px;
+}
+
+footer .follow{
+    margin-top: 20px;
+}
+
+footer .follow i{
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .install .row img{
+    border: 1px solid #088178;
+    border-radius: 6px;
+}
+
+footer .install img{
+    margin: 10px 0 15px 0;
+}
+
+footer .follow i:hover,
+footer a:hover {
+    color: #8270db;
+}
+
+footer .copyright{
+    width: 100%;
+    text-align: center;
+}
+
+
 
