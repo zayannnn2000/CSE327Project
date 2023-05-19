@@ -568,5 +568,101 @@ footer .copyright{
     text-align: center;
 }
 
+/*shop page*/
+#page-header{
+    background-image: url("img/Bannershop/ban1.jpg");
+    width: 100%;
+    height:  40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+#page-header h2,
+#page-header p{
+    color: #000;
+}
+
+#pageination{
+    text-align: center;
+}
+
+#pageination a{
+    text-decoration: none;
+    background-color: #088178;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+}
+
+#pageination a i{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/*single product*/
+
+#productdetails{
+    display: flex;
+    margin-top: 20px;
+}
+
+#productdetails .single-product-image{
+    width: 30%;
+    margin-right: 50px;
+}
+
+.small-img-grp{
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+#productdetails .single-product-details{
+    width: 50%;
+    padding-top: 30px;
+}
+
+#productdetails .single-product-details h4{
+    padding: 40px 0 20px 0;
+}
+
+#productdetails .single-product-details h2{
+    font-size: 26px;
+}
+
+#productdetails .single-product-details select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+#productdetails .single-product-details input{
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#productdetails .single-product-details input:focus{
+    outline: none;
+}
+
+#productdetails .single-product-details button{
+    background: #088178;
+    color: #fff;
+}
+
+#productdetails .single-product-details span{
+    line-height: 25px;
+}
 
 
